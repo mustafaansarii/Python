@@ -17,9 +17,6 @@ class Train:
     def cancelticket(self,seats):
         pass
 
-
-
-
 trainobje=Train("intracity exp",580,2)
 trainobje.getstatus()
 trainobje.traininfo()

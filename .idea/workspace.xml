@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95daa57-d305-4700-b74b-a5c9ed4d577c" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/Oops/Polymorphism/overriding2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/inheritance/practice1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/practice2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/practice4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/practice5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/practice6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/sample.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Hierarchical Inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Hybrid Inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Multilevel Inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Multiple Inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Polymorphism/overloading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oops/Polymorphism/overloading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oops/Single Inheritance.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/other dunder method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/problem/Animal and pet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/problem/Employee increament.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/problem/Inheritence &amp; Opps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/problem/complex number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oops/problem/vector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/Bank Account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matplotlib/Bar Plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/Bar Plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/A Bike Rental System.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +45,16 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bJqTOoqDJB3sotX261QnHqOA8g" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,9 +63,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.A Bike Rental System.executor": "Run",
+    "Python.Animal and pet.executor": "Run",
+    "Python.Bank Account.executor": "Run",
+    "Python.Employee increament.executor": "Run",
     "Python.Encapsulation1.executor": "Run",
+    "Python.Inheritence & Opps.executor": "Run",
     "Python.Multiple Inheritance.executor": "Run",
     "Python.class and object.executor": "Run",
+    "Python.complex number.executor": "Run",
     "Python.constructor.executor": "Run",
     "Python.constructor2.executor": "Run",
     "Python.datetime.executor": "Run",
@@ -79,6 +87,8 @@
     "Python.method.executor": "Run",
     "Python.methods.executor": "Run",
     "Python.oop1.executor": "Run",
+    "Python.operator overload.executor": "Run",
+    "Python.other dunder method.executor": "Run",
     "Python.overloading.executor": "Run",
     "Python.overriding.executor": "Run",
     "Python.overriding2.executor": "Run",
@@ -95,6 +105,7 @@
     "Python.set.executor": "Run",
     "Python.static method.executor": "Run",
     "Python.tuple.executor": "Run",
+    "Python.vector.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -102,8 +113,30 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.A Bike Rental System">
-    <configuration name="A Bike Rental System" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Bank Account">
+    <configuration name="Animal and pet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops/problem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/Animal and pet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Bank Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/A Bike Rental System.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project/Bank Account.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,51 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="overriding2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops/Polymorphism" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/Polymorphism/overriding2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops/inheritance" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/inheritance/practice1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Employee increament" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/practice5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/Employee increament.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="complex number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +193,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/practice6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/complex number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops/problem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/vector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.A Bike Rental System" />
-        <item itemvalue="Python.overriding2" />
-        <item itemvalue="Python.practice1" />
-        <item itemvalue="Python.practice6" />
-        <item itemvalue="Python.practice5" />
+        <item itemvalue="Python.Bank Account" />
+        <item itemvalue="Python.vector" />
+        <item itemvalue="Python.complex number" />
+        <item itemvalue="Python.Employee increament" />
+        <item itemvalue="Python.Animal and pet" />
       </list>
     </recent_temporary>
   </component>
