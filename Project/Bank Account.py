@@ -1,6 +1,6 @@
 class Bankdetail:
     print("My Bank details")
-    def Accountdetail(self,Bank_name,Acount_Holder_name,Account_no,balance,account_type):
+    def Account_details(self,Bank_name,Acount_Holder_name,Account_no,balance,account_type):
         self.Bank_name = Bank_name
         self.Acount_Holder_name=Acount_Holder_name
         self.Account_no=Account_no
@@ -11,12 +11,29 @@ class Bankdetail:
         self.Deposite_balance=Deposite_balance
         self.Depositer_name=Depositer_name
         if self.Deposite_balance>0:
-            print(f"The Balance {self.Deposite_balance} Has been deposited to your account A/C no: {self.Account_no} Toatal Available balce is {self.Deposite_balance+self.balance}")
-            return self.Deposite_balance+self.balance
+            self.balance = self.Deposite_balance + self.balance
+            print(f"The Balance {self.Deposite_balance} Has been deposited to your account, A/C no: {self.Account_no} Toatal Available balce is {self.balance}")
         else:
             print("Deposite More money")
 
+    def Withdrawal(self,Amount):
+        self.Amount=Amount
+        self.balance = self.balance - self.Amount
+        print(f"The Balance {self.Amount} Has been Debited from your account, A/C no: {self.Account_no} Toatal Available balce is {self.balance}")
 obj=Bankdetail()
-obj.Accountdetail("Bank of india","Mustafa",123456,5000.00,"saving")
-obj.Deposite(1000,"Mustafa")
-obj.Deposite(2000,"Mustafa")
+while True:
+    Form=int(input('''
+    1 About bank details
+    2 Deposite money
+    3 Withdraw money
+    4 Exit\n choose above option:'''))
+    if Form==1:
+        obj.Account_details("Bank of india", "Mustafa", 123456, 5000.00, "saving")
+    elif Form==2:
+        obj.Deposite(500,"Mustafa")
+    elif Form==3:
+        obj.Withdrawal(500)
+    elif Form==4:
+        break
+    else:
+        print("Please choose valid option")

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95daa57-d305-4700-b74b-a5c9ed4d577c" name="Changes" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/Oops/other dunder method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/Animal and pet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/Employee increament.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/Inheritence &amp; Opps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/complex number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oops/problem/vector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/Bank Account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matplotlib/Bar Plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/Bar Plot.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/A Bike Rental System.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/Bank Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Bank Account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,28 +106,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="Python.Bank Account">
-    <configuration name="Animal and pet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops/problem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/problem/Animal and pet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Bank Account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -202,6 +172,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="self" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Oops/self.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="vector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -227,10 +219,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Bank Account" />
+        <item itemvalue="Python.self" />
         <item itemvalue="Python.vector" />
         <item itemvalue="Python.complex number" />
         <item itemvalue="Python.Employee increament" />
-        <item itemvalue="Python.Animal and pet" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707733225317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1707933922582</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707933922582</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
