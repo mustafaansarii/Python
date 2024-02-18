@@ -16,7 +16,7 @@ To run the game, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/mustafaansarii/Rock_Paper_Scissors_Game_in_Python.git
+    git clone https://github.com/mustafaansarii/Python
     ```
 
 2. Navigate to the project directory:
