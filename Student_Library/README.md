@@ -41,11 +41,3 @@ This is a simple library management system implemented in Python, where students
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Make sure to replace `LICENSE` with the actual license file name if it's different and adjust any paths or details as necessary. This README provides a basic overview of the project, its features, how to use it, and information on how to contribute or license it. You can expand upon it with more detailed instructions, installation steps, or additional sections as needed.
