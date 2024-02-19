@@ -41,7 +41,7 @@ To run the game, follow these steps:
 4. The winner will be announced based on the game's rules: Rock beats Scissors, Scissors beats Paper, Paper beats Rock.
 5. Keep playing until you decide to quit.
 
-![Game](/assets/RPS.png)
+![Game](/Rock_Paper_Scissors_Game_in_Python/assets/RPS.png)
 
 
 ## License
