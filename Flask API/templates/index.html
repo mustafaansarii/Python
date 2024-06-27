@@ -1,10 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Document</title>
 </head>
 <body>
 
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">To-DO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">To-do Title</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="To-do Title">
+       
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">To-do Discription</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="To-do Discription">
+      </div>
+    
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <div class="container my-3">
+    <table class="table table-bordered">
+      <thead>
+        <h1>This is to-do app</h1>
+        <tr>
+          <th scope="col">S.NO</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
